@@ -1,0 +1,17 @@
+body {
+	background-color: gray;
+}
+h1 {
+	color: white;
+	margin-left: 20px;
+}
+p { 
+	color: white;
+	margin-left: 100px
+}
+#text {
+	padding-right: 500px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
