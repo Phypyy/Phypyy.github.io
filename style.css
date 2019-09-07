@@ -50,6 +50,7 @@ p a:hover{
 
 .text {
 	color: #D3D3D3;
+	font-size: 16px;
 	text-align:justify;
 	position: absolute;
 	margin-top: 100px;
@@ -58,13 +59,26 @@ p a:hover{
 }
 .mail{
 	color: #f2f2f2;
+	font-size: 16px;
 	position: absolute;
 	top : 300px;
 	left: 260px;
 
 }
+.social{
+	position: absolute;
+	border: 3px solid red
+	padding: 0px;
+	left: 520px;
+	margin-top: 30px;
+}
+.social img{
+	opacity: 0.4;
+	padding-left: 50px;
+}
 #profile{
 	color: #D3D3D3;
+	font-size: 16px;
 	text-align:justify;
 	position: absolute;
 	margin-top: 100px;
@@ -76,3 +90,58 @@ p a:hover{
 	left: 50px;
 	margin-top: 100px; 
 }
+.cata {
+	position: absolute;
+	width: 50px;
+	margin-top: 200px;
+	margin-left: 10px;
+	
+}
+.year{
+	position: absolute;
+	width: 50px;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.cata a, .year a{
+	color: white;
+	text-decoration: none;
+
+}
+.cata a:hover, .year a:hover{
+	background-color: #111;
+}
+/*
+.column{
+
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 5px;
+}
+.row{
+	margin-left: 245px;
+	margin-top: 100px;
+	position: absolute;
+	width: auto;
+
+}
+*/
+article{
+	columns: 4;
+
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 245px;
+	margin-right: 50px;
+}
+
+section{
+	margin-bottom: 15px;
+}
+.image img{
+	width: 100%;
+	box-shadow: 0px 0px 12px 0px #5a5a5a
+}
+
+
