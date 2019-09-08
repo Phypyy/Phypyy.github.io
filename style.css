@@ -17,7 +17,6 @@ body {
 
 
 .list{
-
 	list-style-type: none;
 	margin-top: 40px;
 	left: 240px;
@@ -26,10 +25,10 @@ body {
 	position: absolute;
 	
 }
-li {
+.list li {
   float: left;
 }
-li a {
+.list li a {
   color: white;
   padding: 15px 20px;
   text-decoration: none;
@@ -66,15 +65,26 @@ p a:hover{
 
 }
 .social{
-	position: absolute;
-	border: 3px solid red
+	position: fixed;
+	list-style-type: none;
+	margin-top: 490px;
+	margin-left: 10px;
+	margin-bottom: 		
 	padding: 0px;
-	left: 520px;
-	margin-top: 30px;
+
 }
-.social img{
-	opacity: 0.4;
-	padding-left: 50px;
+.social li{
+	margin-top: 20px;
+}
+.social li a{
+	color: #d9d9d9;
+	margin-top: 10px;
+  	
+}
+.social li a:hover{
+	text-decoration: none;
+	color: black;
+	background-color: white;
 }
 #profile{
 	color: #D3D3D3;
@@ -133,18 +143,15 @@ section{
 	margin-top: 100px;
 	margin-left: 45px;
 	margin-right: 50px;
-	
 }
 .image a:hover{
 	opacity: 0.5;
-
-
 }
 .showinside{
 	columns: 1;
 	position: absolute;
 	margin-top: 100px;
-	margin-left: 45px;
+	margin-left: 250px;
 	width: 30%;
 }
 
@@ -155,5 +162,5 @@ section{
 	position: absolute;
 	margin-top: 100px;
 	width: 300px;
-	left: 540px;
+	left: 740px;
 }
