@@ -111,22 +111,6 @@ p a:hover{
 .cata a:hover, .year a:hover{
 	background-color: #111;
 }
-/*
-.column{
-
-	float: left;
-	width: 100%;
-	height: auto;
-	padding: 5px;
-}
-.row{
-	margin-left: 245px;
-	margin-top: 100px;
-	position: absolute;
-	width: auto;
-
-}
-*/
 .gallery{
 	columns: 4;
 	position: absolute;
@@ -149,6 +133,12 @@ section{
 	margin-top: 100px;
 	margin-left: 45px;
 	margin-right: 50px;
+	
+}
+.image a:hover{
+	opacity: 0.5;
+
+
 }
 .showinside{
 	columns: 1;
@@ -157,6 +147,7 @@ section{
 	margin-left: 45px;
 	width: 30%;
 }
+
 .textinside{
 	color: #D3D3D3;
 	font-size: 16px;
