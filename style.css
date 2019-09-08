@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: #4d4d4d;
 }
 
 .container{
@@ -149,4 +149,20 @@ section{
 	margin-top: 100px;
 	margin-left: 45px;
 	margin-right: 50px;
+}
+.showinside{
+	columns: 1;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 45px;
+	width: 30%;
+}
+.textinside{
+	color: #D3D3D3;
+	font-size: 16px;
+	text-align:justify;
+	position: absolute;
+	margin-top: 100px;
+	width: 300px;
+	left: 540px;
 }
