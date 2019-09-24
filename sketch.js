@@ -5,6 +5,10 @@ let eyeX = 0, eyeY =0;
 let eyelX = 0, eyelY =0;
 let img;
 
+function preload(){
+  img = loadImage('image/cat.png');
+}
+
 function setup(){
 	createCanvas(620, 460);
   	video = createCapture(VIDEO);
@@ -40,8 +44,10 @@ function modelReady(){
 function draw() {
   image(video, 0, 0);
   
-  fill(255, 0, 0);
-  ellipse(noseX, noseY, 30);
+  // fill(255, 0, 0);
+  // ellipse(noseX, noseY, 30);
+
+  image(img, noseX, noseY, 40);
   
   
   fill(255);
