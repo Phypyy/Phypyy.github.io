@@ -44,8 +44,7 @@ function modelReady(){
 function draw() {
   image(video, 0, 0);
   
-  // fill(255, 0, 0);
-  // ellipse(noseX, noseY, 30);
+
 
   image(img, noseX, noseY, 40);
   
