@@ -3,7 +3,7 @@ var img;
 function preload()
 {
   // load image
-  img = loadImage("image/cat.jpg");
+  img = loadImage("image/cat.png");
 }
  
 function setup() 
