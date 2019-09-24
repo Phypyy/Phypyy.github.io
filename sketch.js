@@ -3,7 +3,7 @@ let poseNet
 let noseX = 0, noseY = 0;
 let eyeX = 0, eyeY =0;
 let eyelX = 0, eyelY =0;
-let img;
+var img;
 
 function preload(){
   img = loadImage('image/cat.png');
@@ -42,7 +42,9 @@ function modelReady(){
 
 
 function draw() {
+
   image(video, 0, 0);
+  image(img, noseX, noseY, 40, 40);
   
   // fill(255, 0, 0);
   // ellipse(noseX, noseY, 30);
