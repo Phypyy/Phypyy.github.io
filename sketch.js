@@ -42,7 +42,6 @@ function modelReady(){
 
 
 function draw() {
-  image(img, 0, 0);
   image(video, 0, 0);
   
   // fill(255, 0, 0);
