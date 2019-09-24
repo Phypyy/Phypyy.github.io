@@ -46,8 +46,8 @@ function draw() {
   image(video, 0, 0);
   image(img, noseX+20, noseY+10, 200, 200);
   
-  // fill(255, 0, 0);
-  // ellipse(noseX, noseY, 30);
+  fill(255, 0, 0);
+  ellipse(noseX, noseY, 30);
 
 
   
