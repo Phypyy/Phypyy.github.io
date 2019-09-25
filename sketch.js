@@ -62,8 +62,9 @@ function draw() {
   ellipse(eyelX+10, eyelY, 20);
 
   stroke(0);
-  strokeWeight(8);
-  line((eyeX-55),(eyeY-55),(eyeX+55),(eyeY-55));
+  strokeWeight(16);
+  line((eyeX-20),(eyeY-55),(eyeX+35),(eyeY-55));
+  line((eyelX-20),(eyelY-55),(eyelX+35),(eyelY-55));
 
   
 }
