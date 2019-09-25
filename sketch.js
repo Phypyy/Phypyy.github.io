@@ -44,10 +44,10 @@ function modelReady(){
 function draw() {
 
   image(video, 0, 0);
-  image(img, noseX-100, noseY-100, 200);
+  image(img, noseX-100, noseY-100, 200, 200);
   
-  fill(255, 0, 0);
-  ellipse(noseX, noseY, 30);
+  // fill(255, 0, 0);
+  // ellipse(noseX, noseY, 30);
 
 
   
@@ -60,6 +60,10 @@ function draw() {
   ellipse(eyeX+10, eyeY, 20);
   fill(0);
   ellipse(eyelX+10, eyelY, 20);
+
+  stroke(0);
+  strokeWeight(8);
+  line((eyeX-55),(eyeY-55),(eyeX+55),(eyeY+55));
 
   
 }
