@@ -1,0 +1,124 @@
+.catagories {
+    color: white;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    font-size: 26px;
+    list-style-type: none;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.catagories li {
+    margin-top: 15px;
+}
+
+.PHYPYY {
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 128px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.PHYPYY::before,
+.PHYPYY::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.PHYPYY::before {
+    left: 3px;
+    text-shadow: -2px 0 red;
+    animation: glitch-1 3s 0s linear reverse infinite;
+}
+
+.PHYPYY::after {
+    left: -3px;
+    text-shadow: -2px 0 blue;
+    animation: glitch-1 2s 0s linear reverse infinite;
+}
+
+@keyframes glitch-1 {
+    0% {
+        left: -2px;
+        top: -2px;
+    }
+    20% {
+        left: 2px;
+        top: 0px;
+    }
+    40% {
+        left: -1px;
+        top: 0px;
+    }
+    60% {
+        left: 1px;
+        top: 2px;
+    }
+    80% {
+        left: -1px;
+        top: -2px;
+    }
+    100% {
+        left: 0px;
+        top: -2px;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0E0F20;
+    background-color: white;
+}
+
+.profile .photo img {
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 200px;
+    position: absolute;
+    /*border: 3px solid green;*/
+}
+
+.profile .info {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    font-size: 16px;
+    width: 50%;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.profile .contact {
+    color: #0E0F20;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    font-size: 16px;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.gallery {
+    columns: 4;
+    position: absolute;
+    margin-left: 245px;
+}
+
+.gallery img {
+    width: 260px;
+}
+
+section {
+    margin-bottom: 15px;
+}
